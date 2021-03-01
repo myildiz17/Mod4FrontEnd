@@ -7,6 +7,7 @@ import Note from './Note.js';
 class NoteContainer extends React.Component {
   
 rendernotes = () => {
+  
   return this.props.notes.map(note => {
     return <Note
       key={note.id}

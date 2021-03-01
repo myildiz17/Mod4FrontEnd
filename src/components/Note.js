@@ -1,6 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux'
 import { deleteNote } from '../actions/index.js'
+// import { deleteNote } from '../actions/index.js'
 import { Link } from 'react-router-dom'
 
 
@@ -70,5 +71,6 @@ class Note extends React.Component {
 
 const mapDispatchToProps = {
   deleteNote: deleteNote,
+  // handleView: handleView
 }
 export default connect(null, mapDispatchToProps)(Note)

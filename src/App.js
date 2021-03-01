@@ -16,6 +16,7 @@ class App extends React.Component {
     .then(res => res.json())
     .then(notes => {
         this.props.fetchNotesSuccess(notes)  
+        
   })
 }
 

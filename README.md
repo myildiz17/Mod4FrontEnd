@@ -1,70 +1,100 @@
-# Getting Started with Create React App
+# FlatNote
+___
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+* [About The Project](#1)
+* [Getting Started](#2)
+* [Prerequisites](#3)
+* [Installation](#4)
+* [Contributing](#5)
+* [License](#6)
+* [Acknowledgements](#7)
 
-## Available Scripts
+---
 
+<a name="1"></a>
+### About the Project 
+FlatNote is a app where you can create, update and delete any note to keep your life organized. 
+
+Backend is created with Ruby on Rails. Click to see the [backend](https://github.com/myildiz17/Mod4BackEnd). 
+
+[Frontend](https://github.com/myildiz17/Mod4FrontEnd) is designed in JS React-Redux. 
+
+Watch the [demo](https://youtu.be/-gECARO9lUU).
+
+
+
+---
+<a name="2"></a>
+### Getting Started
+Make sure you have the following tools installed on your system:
+
+
+* Github
+* Ruby 2.6.1
+* Rails 6.0.3.4
+* React 17.10.4
+
+--- 
+<a name="3"></a>
+### Prerequisites
+Make sure to install all necessary programs and create the database
+
+bundle install<br/>
+rails console<br/>
+rails db:create<br/>
+rails db:migrate<br/>
+
+--- 
+<a name="4"></a>
+### Installation 
+
+Create a folder and clone forntend and backend repos into it:<br/>
+
+git clone https://github.com/myildiz17/Mod4FrontEnd<br/>
+git clone https://github.com/myildiz17/Mod4BackEnd<br/>
+cd into the frontend<br/>
+Install the gemfile packages<br/>
+bundle install<br/>
+Set up the Database<br/>
+rails db:create<br/>
+rails db:migrate<br/>
+rails db:seed<br/>
+rails s<br/>
+cd into school-app<br/>
+npm install<br/>
+npm start<br/>
+
+---
+<a name="5"></a>
+### Contributing
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are greatly appreciated.
+
+
+--- 
+<a name="6"></a>
+### License
+
+Distributed under the MIT License. https://opensource.org/licenses/MIT
+
+---
+<a name="7"></a>
+### Acknowledgements
+Flatiron School
+
+---
+### Available Scripts
 In the project directory, you can run:
 
-### `yarn start`
+npm start
+Runs the app in the development mode.
+Open http://localhost:3000 to view it in the browser.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
+The page will reload if you make edits.
 You will also see any lint errors in the console.
 
-### `yarn test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Learn More
+You can learn more in the [Create React App documentation](https://create-react-app.dev/docs/getting-started/).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

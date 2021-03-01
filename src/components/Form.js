@@ -6,7 +6,7 @@ class Form extends React.Component {
   state = {
     title: '',
     content: '',
-    user_id: 28
+    user_id: 3
   }
 
   handleChange = (e) => {

@@ -9,6 +9,7 @@ export default function notes(state = [], action) {
       updatedNotes = state.filter((n) => n.id !== action.id);
       return updatedNotes;
     case "ADD_NOTE":
+        
       return [...state, action.newNote];
     case "UPDATE_NOTE":
         updatedNotes = state.map(note => {

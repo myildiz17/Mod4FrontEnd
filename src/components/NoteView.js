@@ -58,7 +58,7 @@ class NoteView extends React.Component {
                 <h4>Title: {this.state.note.title} </h4>
                 <h4>User Name: {this.state.note.user.name} </h4>
                 <Link classname='item' to={`/notes/edit/${this.state.note.id}`} > 
-                  <button class="btn btn-outline-danger" onClick={this.handleView}>Edit</button>
+                  <button class="btn btn-outline-danger" >Edit</button>
                 </Link>
                 {/* <h4>User: {this.props.note.user? this.props.note.user.name : null}</h4> */}
                 {/* <button onClick={this.handleDelete}>delete</button>
